@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-rdlr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && node -r dotenv/config src/bot.js",
+    "deploy:commands": "clear && node -r dotenv/config deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardolino/discord-bot-rdlr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardolino/discord-bot-rdlr/issues"
+  },
+  "homepage": "https://github.com/ricardolino/discord-bot-rdlr#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
