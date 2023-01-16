@@ -24,7 +24,7 @@ for (const file of commandFiles) {
     }
 }
 
-client.once("ready", () =>{
+client.once("ready", () => {
     console.log("BOT IS ONLINE"); //message when bot is online
 });
 
